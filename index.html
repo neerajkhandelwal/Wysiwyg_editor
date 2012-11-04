@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Formatable Textarea</title>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="formating.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="span6 offset3">
+					<div class="row-fluid format-options" style="margin-top: 5px;">
+						<span class="btn-group">
+							<button class="btn" title="Bold" id="Bold">
+								<strong>B</strong>
+							</button>
+							<button class="btn" title="Italic" id="Italic">
+								<em>I</em>
+							</button>
+							<button class="btn" title="Underline" id="Underline">
+								<u>U</u>
+							</button>
+							<button class="btn" title="Strikethrough" id="Strikethrough">
+								<strike>Strike</strike>
+							</button>
+						</span>
+						<button class="btn" title="Code" id="formatblock">
+							Code
+						</button>
+						<button class="btn" title="Image" id="InsertImage" style="padding: 6px 8px 6px 8px;">
+							<i class="icon-picture"></i>
+						</button>
+						<button class="btn" title="Image" id="InsertUnorderedList" style="padding: 6px 8px 6px 8px;">
+							<i class="icon-list"></i>
+						</button>
+					</div>
+					<div class="row-fluid text-written">
+					</div>
+					<div class="row-fluid" style="margin-top: 5px;">
+						<iframe id="formatted-text"	height="250px" width="100%" style="border: 1px solid #9f9f9f; border-radius: 6px;">
+						</iframe>
+					</div>
+					<div class="row-fluid">
+						<div class="span12" style="text-align:right; margin-top: 5px;">
+							<input type="button" class="btn btn-primary" id="done" value="Done" />
+						</div>
+					</div>
+				</div>
+				<div class="span3"></div>
+			</div>
+		</div>
+	</body>
+</html>

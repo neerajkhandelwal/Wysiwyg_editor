@@ -1,7 +1,10 @@
 $(document).ready(function(){
-	this.getElementById('formatted-text').contentDocument.designMode = "on";
-	document.getElementById('formatted-text').contentDocument.getElementsByTagName('body')[0].style.fontSize = '13px';
-	document.getElementById('formatted-text').contentDocument.getElementsByTagName('body')[0].style.fontFamily = 'Helvetica';
+	if(this.getElementById('formatted-text').contentDocument){
+		var doc = this.getElementById('formatted-text').contentDocument;
+	}
+	doc.designMode = "on";
+	doc.getElementsByTagName('body')[0].style.fontSize = '13px';
+	doc.getElementsByTagName('body')[0].style.fontFamily = 'Helvetica';
 	var val = null;
 	
 	$('button').click(function(){

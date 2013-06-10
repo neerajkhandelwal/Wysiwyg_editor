@@ -7,5 +7,5 @@ Just include the contents of container class wysiwyg.html and the included files
 
 See the demo here: http://neerajkhandelwal.github.com/Wysiwyg_editor/
 
-**Test** *test
-***Test *fbakfnalknflaf***
+**Test** *test*
+**Test *fbakfnalknflaf***
